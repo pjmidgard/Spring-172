@@ -1,5 +1,5 @@
 import os
-
+#Author Jurijus Pacalovas
 def compress_file(input_file, output_file, num_bytes_to_remove):
     with open(input_file, 'rb') as f_in:
         data = bytearray(f_in.read())
